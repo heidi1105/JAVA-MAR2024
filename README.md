@@ -28,13 +28,13 @@
         <td>W1D3 </td>
         <td></td>
         <td> - Advanced OOP</td>
-        <td></td>
-        <td> require <a href="https://login.codingdojo.com/m/315/9381/65677">STS</a></td>
+        <td> Inheritance, Interface</td>
+        <td> </td>
     </tr>
         <tr>
         <td>W1D4 </td>
         <td></td>
-        <td> Java Hackathon</td>
+        <td> - Java Hackathon</td>
         <td></td>
         <td></td>
     </tr>
@@ -43,7 +43,7 @@
         <td>3</td>
         <td>Spring</td>
         <td>RestController, Routes, jsp, jstl</td>
-        <td>        </td>
+        <td>require <a href="https://login.codingdojo.com/m/315/9381/65677">STS</a></td>
     </tr>
     <tr>
         <td>W2D1 </td>
