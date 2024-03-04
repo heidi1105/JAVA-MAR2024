@@ -59,14 +59,3 @@ public class JavaBasic{
    
     }
 }
-
-
-    // 5. Casting (implicit & explicit, Null VALUE)
-
-    // the following will be demonstrated in other util & test
-    // 6. dependency injection (using methods in another file) & overloading methods
-    // -------------- Alfred Bot ------------------
-    // 7. Fixed Array & Loops
-    // 8. ArrayList
-
-    // -------------- Cafe Business Logic --------------
