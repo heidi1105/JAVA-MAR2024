@@ -8,6 +8,9 @@ public class Developer{
     private int monthsCoding;
     private int braincell;
 
+    private static int devCount; // int: default as 0
+    private static int totalSkills;
+
     // 2. Constructors
     public Developer(){ // new Developer();
         this.name = "Anonymous Developer";
@@ -15,6 +18,7 @@ public class Developer{
         this.skills = new ArrayList<String>();
         this.monthsCoding = 0;
         this.braincell = 10;
+        devCount++;
     }
 
     public Developer(String name){
@@ -25,6 +29,8 @@ public class Developer{
         this.skills.add("Vanilla css");
         this.monthsCoding = 3;
         this.braincell = 9;
+        devCount++;
+        totalSkills += 2;
     }
 
     // 3. getters (method to display) & setters (method to reassign)
@@ -72,6 +78,18 @@ public class Developer{
         this.braincell = braincell;
     }
 
+    public static int getDevCount(){
+        return devCount;
+    }
+
+    public static void setDevCount(int devCountInPara){
+        devCount = devCountInPara;
+    }
+
+    public static int getTotalSkills(){
+        return totalSkills;
+    }
+
     // 4. Other methods
     public void display(){
         System.out.println("======== Developer Display ========");
@@ -80,13 +98,14 @@ public class Developer{
         System.out.println("skills: "+ this.skills);
         System.out.println("monthsCoding: "+ this.monthsCoding);
         System.out.println("braincell: "+ this.braincell);
+    }
 
-        Field[] fields = this.getClass().getDeclaredFields();
-        for(int i=0; i<fields.length; i++){
-            String key = fields[i].getName();
-            System.out.println("The field is: "+ fields[i].getName());
-        }
-
+    public void learnNewSkill(String skill){
+        this.monthsCoding++;
+        this.skills.add(skill);
+        this.braincell++;
+        totalSkills+= 1;
+        System.out.println(this.name + " is learning " + skill);
     }
 
 }
