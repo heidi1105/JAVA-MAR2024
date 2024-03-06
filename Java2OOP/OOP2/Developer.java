@@ -81,12 +81,6 @@ public class Developer{
         System.out.println("monthsCoding: "+ this.monthsCoding);
         System.out.println("braincell: "+ this.braincell);
 
-        Field[] fields = this.getClass().getDeclaredFields();
-        for(int i=0; i<fields.length; i++){
-            String key = fields[i].getName();
-            System.out.println("The field is: "+ fields[i].getName());
-        }
-
     }
 
 }
