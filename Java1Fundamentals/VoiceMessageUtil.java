@@ -32,8 +32,14 @@ class VoiceMessageUtil{
     }
 
     public void printArray(ArrayList<String> array){
+        // traditional for-loop for arrayList
         for(int i =0 ; i<array.size(); i++){
             System.out.println(array.get(i));
+        }
+
+        // enhanced for-loop for arrayList (same as fixed array)
+        for(String element : array){
+            System.out.println(element);
         }
     }
 
