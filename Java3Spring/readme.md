@@ -1,4 +1,13 @@
-### Spring project folder structures
+- [Spring project folder structures](#spring-project-folder-structures)
+- [Different Settings](#different-settings)
+    - [Dark mode](#dark-mode)
+    - [Update Text size](#update-text-size)
+    - [Update Workspace size](#update-workspace-size)
+    - [Automation](#automation)
+    - [jsp template](#jsp-template)
+
+
+## Spring project folder structures
 - Explore the files we need to look at . 
   | DIRECTORY | FILENAME | DESCRIPTION |
   |---------|--------| -------|
@@ -9,15 +18,7 @@
   |  | FirstDemoApplication.java | main method like the entry point. But putting everything here will be messy. |
  
 
-### Different settings
-- [Spring project folder structures](#spring-project-folder-structures)
-- [Different settings](#different-settings)
-  - [Dark mode](#dark-mode)
-  - [Update Text size](#update-text-size)
-  - [Update Workspace size](#update-workspace-size)
-  - [Automation](#automation)
-  - [jsp template](#jsp-template)
-
+## Different Settings
 
 #### Dark mode
     ![darkmode](../appendix/darkMode.png)
