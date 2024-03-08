@@ -43,7 +43,7 @@
         <td>3</td>
         <td>Spring</td>
         <td>RestController, Routes, jsp, jstl</td>
-        <td>require <a href="https://login.codingdojo.com/m/315/9381/65677">STS</a></td>
+        <td><a href="./Java3Spring/">Notes</a> <br/> <a href="./Java3Spring/first-spring-demo/">1. RestController & Routes</a> </td>
     </tr>
     <tr>
         <td>W2D1 </td>

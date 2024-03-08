@@ -9,4 +9,20 @@
   |  | FirstDemoApplication.java | main method like the entry point. But putting everything here will be messy. |
  
 
- 
+ ### Different settings
+- Dark mode
+    ![darkmode](../appendix/darkMode.png)
+
+- Update Text size
+    ![UpdateTextSize](../appendix/stsUpdateTextSize.png)
+
+- Update Workspace size
+    ![UpdateWorkspaceSize](../appendix/stsUpdateWorkspaceSize.png)
+
+- Automation
+    ![stsAutomation](../appendix/stsAutomation1.png)
+    ![stsAutomation](../appendix/stsAutomation2.png)
+
+- jsp template
+    ![jspTemplateSetting](../appendix/jspTemplate.png)
+
