@@ -32,13 +32,13 @@ public class APIController {
 	}
 	
 	// Option 3: GetMapping / PostMapping / PutMapping / DeleteMapping
-	@GetMapping("/option3")
+	@GetMapping("/option3")  // GET: /option3
 	public String option3Mapping() {
 		return "Option 3: GetMapping";
 	}
 	
 	// RequestParam 
-	// localhost:8080/api/search?festival=easter
+	// localhost:8080/api/search?festival=easter&count=2
 	@GetMapping("/search")
 	public String queryForFestival(
 			@RequestParam(value="festival", required=false)String fest,
