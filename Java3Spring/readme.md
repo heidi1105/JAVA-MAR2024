@@ -11,7 +11,7 @@
 
  ### Different settings
 - Dark mode
-    ![darkmode](../appendix/darkMode.png)
+    ![darkmode](../appendix/darkMode.png){width=300}
 
 - Update Text size
     ![UpdateTextSize](../appendix/stsUpdateTextSize.png)
