@@ -9,20 +9,29 @@
   |  | FirstDemoApplication.java | main method like the entry point. But putting everything here will be messy. |
  
 
- ### Different settings
-- Dark mode
-    ![darkmode](../appendix/darkMode.png){width=300}
+### Different settings
+- [Spring project folder structures](#spring-project-folder-structures)
+- [Different settings](#different-settings)
+  - [Dark mode](#dark-mode)
+  - [Update Text size](#update-text-size)
+  - [Update Workspace size](#update-workspace-size)
+  - [Automation](#automation)
+  - [jsp template](#jsp-template)
 
-- Update Text size
+
+#### Dark mode
+    ![darkmode](../appendix/darkMode.png)
+
+#### Update Text size
     ![UpdateTextSize](../appendix/stsUpdateTextSize.png)
 
-- Update Workspace size
+#### Update Workspace size
     ![UpdateWorkspaceSize](../appendix/stsUpdateWorkspaceSize.png)
 
-- Automation
+#### Automation
     ![stsAutomation](../appendix/stsAutomation1.png)
     ![stsAutomation](../appendix/stsAutomation2.png)
 
-- jsp template
+#### jsp template
     ![jspTemplateSetting](../appendix/jspTemplate.png)
 
