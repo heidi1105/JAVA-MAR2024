@@ -43,7 +43,7 @@
         <td>3</td>
         <td>Spring</td>
         <td>RestController, Routes, jsp, jstl</td>
-        <td><a href="./Java3Spring/">Notes</a> <br/> <a href="./Java3Spring/first-spring-demo/"> Code </a> </td>
+        <td><a href="./Java3Spring/">Notes</a> | <a href="./Java3Spring/first-spring-demo/"> Code </a> </td>
     </tr>
     <tr>
         <td>W2D1 </td>
