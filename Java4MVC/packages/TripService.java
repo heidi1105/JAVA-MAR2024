@@ -1,6 +1,7 @@
 package com.heidichen.mvcdemo.services;
 
 import java.util.List;
+import java.util.Optional;
 
 import org.springframework.stereotype.Service;
 
@@ -26,6 +27,28 @@ public class TripService {
 	public Trip createTrip(Trip newTrip) {
 		return tripRepo.save(newTrip);
 	}
+
+	// find one
+	public Trip oneTrip(Long id) {
+		Optional<Trip> optionalTrip = tripRepo.findById(id);
+		if(optionalTrip.isPresent()) {
+			return optionalTrip.get();
+		}else {
+			return null;
+		}	
+	}
+	
+	
+	// Update
+	public Trip updateTrip(Trip oneTrip) {
+		return tripRepo.save(oneTrip);
+	}
+	
+	// DELETE
+	public void deleteTripById(Long id) {
+		tripRepo.deleteById(id);
+	}
+	
 	
 }
 
