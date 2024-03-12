@@ -57,7 +57,7 @@
         <td>4</td>
         <td> MVC </td>
         <td>API CRUD, Web Dashboard & Details</td>
-        <td>
+        <td>(<a href="./Java4MVC/readme.md">Notes</a>)
         </td>
     </tr>
     <tr>
