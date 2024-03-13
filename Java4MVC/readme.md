@@ -24,8 +24,9 @@
     | ---------| --------| -----------|
     | tripDashboard |  Get the list of trips from service and render in jsp| Fruity Loop |
     | tripDetails |  Get the ID from PathVariable, use the ID to get the trip information from service | [Video from Adding Views](https://login.codingdojo.com/m/315/9533/65957) |
- 
-
+    | newTripForm | render the form:form with corresponding modelAttribute (newTrip) | [@ModelAttribute & DataBinding](https://login.codingdojo.com/m/315/9533/81390) |
+    | editTripForm | 1. Make sure Model model has the trip info in the Controller <br> 2. create the corresponding modelAttribute with form:form <br> 3. Cast the method to PUT instead of POST (may need to enable hiddenmethod) <br> 4. Make sure the form action is pointing to the correct PutMapping route | [Edit & Update ](https://login.codingdojo.com/m/315/9533/64306)|
+    | delete (no page needed) | Create the form to follow RESTful routing (DeleteMapping for delete) | [Delete](https://login.codingdojo.com/m/315/9533/64307) |
 
 
 
